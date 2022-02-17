@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--HTML-->
+    <h1>W6 JavaScript intro demo</h1>
+    <h3><a href="secondDemo">conditions demo</a></h3>
+    <!--In document javascript-->
+    <script>
+        //in here we write in javascript (sible line comment)
+        
+        //Declaration of variables - stating names to be used as variables
+        var num //declaration only
+
+        num = 0 //assignment only - cannot happen before declaration 
+        var num1 = 10
+        var num2 = 7
+        //Basic processing with vars - variable must be defined
+        var sum = num1 + num2
+
+        //Output - display 2 types one for testingone for user
+        console.log(sum)// for testing - var only displays stored value
+        console.log('hello world')
+        //literal string
+        console.log(`the sum of  ${num1.toFixed(2)} + ${num2.toFixed(2)} = ${sum.toFixed(2)}`)
+        //input
+        var name = prompt('Enter your name')
+        // if you need to use the data store the prompt () return to a declared var
+        console.log(name)
+        alert(`Hi there, ${name}!`)
+
+        // All data returned from the prompt() is tring data
+        var num = prompt(`enter th enumber 7:`)
+        if(num ===7)
+        {
+            console.log(`num is equal to value and type to 7`)
+
+
+        }
+    </script>
+    
+</body>
+</html>
