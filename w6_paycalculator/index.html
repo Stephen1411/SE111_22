@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>w6_paycalculator</title>
+</head>
+<body>
+    <script>
+ var hoursworked = Number(prompt(`Hours worked`))
+ var hourlypay = Number(prompt(`Hourly Pay`))
+ var gross = hoursworked * hourlypay
+ var tax = gross * 0.2
+ var net = gross - tax
+ console.log(`Gross pay: $${gross.toFixed(2)}`)
+ console.log(`Uncle Sam's share: $${tax.toFixed(2)}`)
+ console.log(`Net Pay: $${net.toFixed(2)}`)
+ alert(`Gross Pay: $${gross.toFixed(2)} \Uncle Sam's share: $${tax.toFixed(2)} Net Pay: $${net.toFixed(2)}`)
+
+    </script>
+    <img src="images/w6valid.jpg" alt="Validation">
+</body>
+</html>
